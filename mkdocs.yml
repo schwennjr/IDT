@@ -1,1 +1,30 @@
-site_name: My Docs
+site_name: Instructional Design and Technology
+site_url: https://idt.craigschwenn.com  
+nav:
+  - Home: index.md
+theme: 
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: switch to light mode
+  favicon: img/favicon.ico
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+plugins:
+  - mkdocs-video
+  - privacy:
+    externals: bundle
