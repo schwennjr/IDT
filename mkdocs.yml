@@ -2,8 +2,29 @@ site_name: Instructional Design and Technology
 site_url: https://idt.craigschwenn.com  
 nav:
   - Home: index.md
+  - IDT100x: 
+    - idt100x/index.md
+    - Welcome: idt100x/welcome.md  
+    - Comparing Learning Theories: idt100x/comparisons.md
+    - Personal Learning Experiences: idt100x/learningexp.md  
+    - Theories: 
+      - idt100x/theories/index.md
+      - Behaviorism: idt100x/theories/behaviorism.md
+      - Constructivism: idt100x/theories/constructivism.md
+      - Congnitivism or Connectivism: idt100x/theories/cognitivism.md
+      - Andragogy: idt100x/theories/andragogy.md
+    - Authentic Assessment: idt100x/authassessment.md
+    - Final Product: idt100x/finalproduct.md
+  - IDT200x:
+    - idt200x/index.md
+  - IDT300x:
+    - idt300x/index.md
+  - IDT400x:
+    - idt400x/index.md
+  - Tags: tags.md
 theme: 
   name: material
+  custom_dir: overrides
   palette:
     - scheme: default
       primary: blue
@@ -15,7 +36,15 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: switch to light mode
-  favicon: img/favicon.ico
+  favicon: bootstrap/puzzle-fill.svg
+  features:
+    - navigation.instant
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - search.suggest
+    - search.highlight
 extra:
   consent:
     title: Cookie consent
@@ -24,7 +53,28 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/schwennjr
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/craig-schwenn-6524668
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/craigschwennjr
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - footnotes
+  - attr_list
+  - md_in_html
 plugins:
   - mkdocs-video
-  - privacy:
-    externals: bundle
+  - search:
+      lang: en
+  - tags:
+      tags_file: tags.md
+  - minify:
+       minify_html: true
