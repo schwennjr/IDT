@@ -76,5 +76,5 @@ plugins:
       lang: en
   - tags:
       tags_file: tags.md
-  - minify:
-       minify_html: true
+  #- minify:
+  #     minify_html: true
