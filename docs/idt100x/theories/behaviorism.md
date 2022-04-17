@@ -27,7 +27,7 @@ If the homeowner continues with the undesired behavior, the board will change th
 Like all things, behaviorism has its strengths and weaknesses. First, behaviorism can be observed through responses to stimuli making it quantifiable. This observability makes it easier for the person providing the stimuli to review the response and implement other actions if it did not achieve the desired outcome. Another strength is the theory's ability to be studied through scientific methods with controlled variables and reproducible results. 
 
 One of the primary weaknesses of behaviorism is that it doesn't account for other learning methods. Another weakness is that it is too deterministic. It tries to reduce learning down to stimuli and responses while ignoring the complex and emotional nuances of the human mind. Because behaviorism ignores other aspects of human behavior, this type of learning method is highly criticized as an effective learning tool for anything except "skill and drill" type learning.
-## **Citations**
+## **References**
 <p style="padding-left: 36px; text-indent: -36px;">DeSmit, Kristy. (2016, January). The Role of a Homeowners' Association. <a href="https://www.lawdepot.com/blog/the-role-of-a-homeowners-association/" target="_blank">https://www.lawdepot.com/blog/the-role-of-a-homeowners-association/</a>.</p>
 
 <p style="padding-left: 36px; text-indent: -36px;">Dumper, K., Jenkins, W., Lacombe, A., Lovett, M., Perimutter, M. (n.d.). Chapter 6: Learning. A Short History of Behaviorism. Retrieved from <a href="https://opentext.wsu.edu/psych105/chapter/6-2-a-short-history-of-learning-and-behaviorism/" target="_blank">https://opentext.wsu.edu/psych105/chapter/6-2-a-short-history-of-learning-and-behaviorism/</a>.</p>
